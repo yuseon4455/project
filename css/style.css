@@ -1,0 +1,266 @@
+@import url('reset.css');
+@import url('gnb.css');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    height: 1038px;
+    background: #FFFFFF;  
+    margin: 40px;
+    /* outline: 1px solid yellowgreen; */
+}
+
+#main-header {
+    box-sizing: border-box;
+ position: relative;
+    width: 1200px;
+    height: 69px;
+    left: 0px;
+    top: 0px;
+    
+    background: #FFFFFF;
+    /* outline: 1px solid yellowgreen; */
+}
+ 
+#logo img{
+    position: absolute;
+    width: 144px;
+    height: 52px;
+    left: 20px;
+    top: 8px;
+}
+
+.header-text li{
+    position: absolute;
+width: 88px;
+height: 21px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #000;
+}
+
+.bi{
+    text-align: center;
+    font-size: 32px;
+}
+
+.bi-shopping{
+    position: relative;
+    left: 88%;
+    top: 25%;
+    bottom: 25%;
+    font-size: 32px;
+}
+
+.bi-person{
+    position: absolute;
+    left: 1115px;
+    top: 26px;
+    bottom: 993px;
+    font-size: 32px;
+}
+
+.bi-list {
+    position: absolute;
+    left: 96%;
+    top: 25%;
+    bottom: 25%;
+    font-size: 32px;
+  }
+
+ul {
+    display: flex;
+    text-align: center;
+  }
+
+  .small-p{
+    position: absolute;
+    width: 138px;
+    height: 46px;
+    left: 20px;
+    top: 559px;
+    
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 46px;
+    
+    color: #000000;
+    /* outline:1px solid yellowgreen; */
+  }
+
+  .products {
+    display: flex;
+left: 21px;
+right: 21px;
+top: 620px; 
+bottom: 263px;
+  }
+
+  .product{
+    margin-top: 100px;
+margin-left: 20px;
+  }
+
+  .product :first-child{
+margin-left: 0;
+  }
+
+  .product h2{
+    font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+color: #000000;
+  }
+
+  .product hr{
+    width: 60px;
+    height: 0px;
+    border: 1px solid #000000;
+    flex: none;
+    flex-grow: 0;
+    margin-left: 107px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+
+  .product p{
+    font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+
+color: #000000;
+  }
+
+  /* slider */
+  .slider {
+    width: 1200px;
+    height: 450px;
+    /* outline: 4px solid yellowgreen; */
+    overflow: hidden;
+  }
+  
+  .slider .sliders img {
+    display: block;
+  }
+    
+  .sliders{
+        width: calc(1200px * 3);
+        transform: translateX(0);
+        display: flex;
+        transition: 0.5s;
+    }
+  
+/* footer */
+#main-footer{
+    position: absolute;
+    width: 1200px;
+    height: 115px;
+    left: 0px;
+    top: 923px;
+    background: #535353;   
+    /* outline:1px solid yellowgreen; */
+}
+
+#main-footer a{
+    position: absolute;
+    width: 718px;
+    height: 20px;
+    left: 20px;
+    top: 35px;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF; 
+}
+
+#main-footer .copy{
+    position: absolute;
+    width: 172px;
+    height: 20px;
+    left: 20px;
+    top: 65px;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+#main-footer button{
+    box-sizing: border-box;
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 5px 10px;
+gap: 10px;
+
+position: absolute;
+width: 217px;
+height: 29px;
+left: 883px;
+top: 35px;
+}
+
+#main-footer input{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 5px 10px;
+gap: 10px;
+
+position: absolute;
+width: 217px;
+height: 29px;
+left: 883px;
+top: 35px;
+
+background: #FFFFFF;
+border: 1px solid #CCCCCC;
+}
+
+#main-footer .sign button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 75px;
+    height: 30px;
+    left: 1105px;
+    top: 35px;
+    font-size: 13px;
+    color: #fff;
+background: #FF6263;
+}

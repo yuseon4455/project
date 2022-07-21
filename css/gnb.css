@@ -1,0 +1,66 @@
+/* 메뉴 */
+@import url('reset.css');
+
+#gnb-menu {
+    /* display: none; */
+    background-color: #000;
+    position: fixed;
+    width: 85%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    transition-duration: 0.4s;
+    z-index: 999;
+  }
+  
+  #gnb-menu.on {
+    transform: translateX(0%);
+  }
+  
+  #gnb-menu > ul {
+    position: absolute;
+    width: 100%;
+    top: 51px;
+    font-size: 16px;
+    color: #000;
+  }
+  
+  #gnb-menu > ul > li {
+    border-bottom: 1px solid rgba(255,255,255,0.5);  
+  }
+  #gnb-menu > ul > li > span{
+    margin-right: 5px;
+  }
+  #gnb-menu > ul > li > a {
+    color: #fff;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  #gnb-menu .bold{
+    font-weight: 700;
+  }
+  
+  #btn-close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  
+    width: 32px;
+    height: 32px;
+    font-size: 18.67px;
+    background-color: transparent;
+    border-style: none;
+    /* outline: 1px solid red; */
+  }
+  
+  .bi-x {
+    font-size: 32px;
+    color: #fff;
+  }
+  
